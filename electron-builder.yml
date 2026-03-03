@@ -1,0 +1,14 @@
+appId: com.projectsmlm.app
+productName: ProjectsMLM
+mac:
+  category: public.app-category.developer-tools
+  target:
+    - dmg
+    - zip
+  icon: null
+directories:
+  output: release
+  buildResources: resources
+files:
+  - out/**/*
+asar: true
